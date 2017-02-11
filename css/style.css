@@ -1,0 +1,74 @@
+@font-face {
+	font-family:'comforta';
+	src:url('../font/comforta.ttf');
+}
+
+body{
+	font-family: 'comforta';
+	background-color: #E1EFFF;
+	animation-name: couleur;
+	animation-duration: 50s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes couleur{
+	0%{background-color: #91C6FF;}
+	20%{background-color: #91FF9C;}
+	40%{background-color: #F7FF91};
+	60%{background-color: #FFA591};
+	80%{background-color: #91FFE3};
+	100%{background-color: #FF91F4};
+}
+
+#container{
+	display: flex;
+	flex-direction: column;
+}
+
+#utilisateur{
+	margin: 10px;
+	background-color: #007BFF;
+	border : solid 5px #0063CE;
+	color: white;	
+	padding: 5px;
+}
+
+button{
+	color: white;
+	background-color: #0063CE;
+	border : 3px inset #003E81;
+	border-radius: 20px;
+	font-size: 1.2em;
+	margin: 5px;
+	transition: 1s;
+}
+
+button:hover{
+	border : 3px outset #003E81;
+	transition: 1s;
+}
+
+input{
+	margin: 5px;
+}
+
+#messages{
+	margin: 20px;
+	padding: 20px;
+	color: white;
+	background-color: #007BFF;
+	border : solid 5px #0063CE;
+	height: 60vh;
+	overflow-y: scroll;
+
+}
+
+#Martin{
+	color : #FFA100;
+	font-weight: bold;
+}
+
+#admin{
+	font-size: 1.2em;
+	color: #FFCD93;
+}
