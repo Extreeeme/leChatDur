@@ -68,7 +68,16 @@ input{
 	font-weight: bold;
 }
 
+#Aymeric{
+	color: #FF30C6;
+	font-weight: bold;
+}
 #admin{
 	font-size: 1.2em;
 	color: #FFCD93;
+}
+
+#admin2{
+	font-size: 1.2em;
+	color: #FF30C6;
 }
