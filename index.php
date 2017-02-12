@@ -73,14 +73,6 @@
 	<?php
 
 		echo '<div id="messages">';
-		//On parcoure le tableau et à chaque nouvelles lignes, on ajoute son contenu dans la variable $ligne
-		// foreach ($contenu as $ligne) {
-		// 	if($ligne['pseudo'] == "Martin"){
-		// 		echo '<span id="admin" ><span id="Martin" >&lt;'. $ligne['pseudo'] . '&gt; </span> ' . $ligne['message'] . '</span><br/>';
-		// 	}else{
-		// 		echo '&lt;'. $ligne['pseudo'] .'&gt; '. $ligne['message'] .  '<br/>';
-		// 	}
-		// }
 
 		echo '</div>';
 

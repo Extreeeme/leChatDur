@@ -56,7 +56,7 @@ input{
 	margin: 20px;
 	padding: 20px;
 	color: white;
-	background-color: #007BFF;
+	background-color: #00285C;
 	border : solid 5px #0063CE;
 	height: 60vh;
 	overflow-y: scroll;
@@ -64,7 +64,7 @@ input{
 }
 
 #Martin{
-	color : #FFA100;
+	color : #006EFF;
 	font-weight: bold;
 }
 
@@ -74,7 +74,7 @@ input{
 }
 #admin{
 	font-size: 1.2em;
-	color: #FFCD93;
+	color: #4796FF;
 }
 
 #admin2{
