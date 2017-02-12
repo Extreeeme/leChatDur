@@ -65,6 +65,9 @@
 			echo "<label>Mot de Passe : </label><input type='password' name='password' placeholder='Mot de passe' >";
 			echo 	"<button type='submit' name='bouton2'>Connexion</button>";
 			echo "</form>";
+			echo "<form action='formulaireInscription.php' method='post'>";
+			echo "<button type='submit' name='bouton3'>Inscription</button>";
+			echo "</form>";
 		}
 
 		?>

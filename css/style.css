@@ -81,3 +81,23 @@ input{
 	font-size: 1.2em;
 	color: #FF30C6;
 }
+
+
+#inscription{
+	margin: auto;
+	margin-top: 40px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	background-color: #007BFF;
+	border : solid 5px #0063CE;
+	color: white;
+}
+
+#titreInscription{
+	font-size: 3em;
+}
+
+#erreur{
+	color: #FF3F3F;
+}
